@@ -11,7 +11,7 @@ class Carousel {
   constructor(
     shouldLoop,
     initialIdx = 0,
-    transitionTime = 500,
+    transitionTime = 300,
     peeking = true,
   ) {
     this.carousel = $('.carousel');

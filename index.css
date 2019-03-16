@@ -5,8 +5,9 @@ body {
 .carousel-container {
   border: .1px solid hotpink;
   margin: 100px auto;
+  overflow: hidden;
   position: relative;
-  width: 680px;
+  max-width: 1024px;
 }
 
 .carousel {
