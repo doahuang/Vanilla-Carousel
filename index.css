@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+}
+
+.carousel-container {
+  border: .1px solid hotpink;
+  margin: 100px auto;
+  position: relative;
+  width: 680px;
+}
+
+.carousel {
+  font-size: 0;
+  margin: 100px auto;
+  width: 190px;
+}
+
+.section-wrapper {
+  white-space: nowrap;
+}
+
+.carousel-section {
+  background: hotpink;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 80px;
+  height: 150px;
+  margin: 0 20px;
+  text-align: center;
+  user-select: none;
+  white-space: normal;
+  width: 150px;
+}
+
+.nav-button {
+  bottom: 0;
+  color: hotpink;
+  cursor: pointer;
+  font-size: 40px;
+  padding: 10px 20px;
+  position: absolute;
+  user-select: none;
+}
+
+.nav-button-next {
+  right: 0;
+}
+
+.nav-dot {
+  border: 1px solid hotpink;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  height: 10px;
+  margin: 0 5px;
+  padding: 5px;
+  width: 10px;
+}
+
+.nav-dot:hover, .nav-dot.active {
+  background: hotpink;
+}
+
+.nav-dots {
+  bottom: 15px;
+  display: inline-block;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%);
+}

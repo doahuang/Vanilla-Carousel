@@ -1,0 +1,8 @@
+{
+  "name": "vanilla-carousel",
+  "version": "1.0.0",
+  "description": "vanilla js carousel",
+  "main": "index.js",
+  "author": "doahuang",
+  "license": "MIT"
+}
